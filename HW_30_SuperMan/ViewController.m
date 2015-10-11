@@ -29,7 +29,8 @@
 
     
     
-    for (ASStudent *obj in self.arrayStudents){
+    
+    for (ASStudent  *obj in self.arrayStudents){
         
         if (obj.gpa < 3) {
             [studentsStudyingTwo addObject:obj];
